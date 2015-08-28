@@ -25,6 +25,17 @@ p {
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 
+.pure-menu-has-children:hover {
+  background: #eee;
+}
+
+.pure-menu-has-children:hover ul {
+  top: 35px; /* height of menu li */
+  left: 0;
+  visibility: visible;
+  border: 1px solid #b7b7b7;
+  background: #fff;
+}
 
 .banner {
     background: none;

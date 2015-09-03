@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Dr Register - Energy</title>
+
+		<meta name="description" content="The Scientific Method Slideshow - Dr Register's Science Resources">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="/lib/revealjs/css/reveal.css">
+		<link rel="stylesheet" href="/lib/revealjs/css/theme/league.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="/lib/revealjs/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '/lib/revealjs/print/pdf.css' : '/lib/revealjs/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="/lib/revealjs/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+
+			<div class="slides">
+				<section>
+					<h1>Heat and the 2nd Law of Thermodynamics</h1>
+					<p>
+						<small>Created by <a href="http://www.drregister.com">Dr Adele Register</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Heat and the 2nd Law of Thermodynamics</h2>
+					<p>
+						Although we learned in the first law that the total amount of energy,
+						including heat, is conserved in an isolated system,
+						<span style="font-style: italic;">it is not possible
+						to use the energy in a system with 100% efficiency.</span>
+					</p>
+				</section>
+
+			  <section>
+					<h2>Potential Energy</h2>
+					<p class="fragment">Gravitational</p>
+          <p class="fragment">Chemical</p>
+					<p class="fragment">Elastic</p>
+					<p class="fragment">Electromagnetic</p>
+			</section>
+
+				<section>
+					<h2>Heat</h2>
+					<p class="fragment">“Thermal” energy</p>
+					<p class="fragment">Kinetic energy of atoms and molecules</p>
+					<p class="fragment">Moves from warmer to cooler object</p>
+					<p class="fragment">Measured in calories</p>
+					<p class="fragment"> - amount of heat required to raise 1 gram
+						of room temperature water by 1° Celsius</p>
+				</section>
+
+				<section>
+					<h2>Heat Transfer</h2>
+					<p class="fragment">Conduction - Transfer of heat through
+						collisions of atoms and electrons</p>
+					<p class="fragment">Convection - Motion of a mass of fluid
+						where warmer atoms are transported from one place to another</p>
+					<p class="fragment">Radiation - Infrared energy that travels
+						across space until absorbed by an object and converted into
+						kinetic energy of molecules</p>
+				</section>
+
+				<section>
+					<h2>Temperature</h2>
+					<p class="fragment">A measurement that reflects how vigorously atoms
+						are moving and colliding in a material</p>
+					<p class="fragment">Three temperature scales</p>
+					<p class="fragment">Fahrenheit<br />Celsius<br />Kelvin</p>
+					<p class="fragment">Absolute zero - Temperature at which there is no motion of atoms</p>
+				</section>
+
+ 				<section>
+ 				<h2>Heat and the 2nd Law of Thermodynamics</h2>
+				<p class="fragment">Restrictions on the way heat and other energy
+					can be transferred or used</p>
+				<p class="fragment">Heat will not flow spontaneously from a cold to hot body</p>
+				<p class="fragment">You cannot construct an engine that does nothing but
+					convert heat to useful work</p>
+				<p class="fragment">Every isolated system becomes more disordered with time</p>
+ 				</section>
+
+			</div>
+
+		</div>
+
+		<script src="/lib/revealjs/lib/js/head.min.js"></script>
+		<script src="/lib/revealjs/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '/lib/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/lib/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/lib/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/lib/revealjs/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/lib/revealjs/plugin/zoom-js/zoom.js', async: true },
+					{ src: '/lib/revealjs/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
